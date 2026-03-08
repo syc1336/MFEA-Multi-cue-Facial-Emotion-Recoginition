@@ -25,7 +25,6 @@ Traditional Facial Emotion Analysis (FEA) relies solely on Action Units (AUs) to
 ## Framework
 
 ![Framework](asset/case1.png)
-![Framework](asset/case2.png)
 
 *Left: The three-stage MFEA process on a facial image — (1) facial cue recognition, (2) interpretable reasoning, (3) emotion prediction. Right: The MFEA-CoT scoring pipeline combining traditional metrics with LLM-as-judge evaluation.*
 
