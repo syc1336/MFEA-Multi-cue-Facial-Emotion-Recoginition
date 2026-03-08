@@ -54,7 +54,7 @@ MFEA-Bench is partitioned into five subsets:
 
 ## Code & Data Release
 
-**Code, data, and model weights will be released soon. Stay tuned!**
+**Code and data will be released soon. Stay tuned!**
 
 ## Citation
 
