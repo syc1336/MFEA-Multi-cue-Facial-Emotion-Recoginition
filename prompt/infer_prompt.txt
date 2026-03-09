@@ -1,0 +1,35 @@
+As a facial expression expert, first identify the facial cues in the image, including:
+  Action Units (AUs): List relevant AU numbers, e.g. AU1, AU6, AU12
+  Age: Choose one of the five labels: infant, child, youth, middle-aged, elderly
+  Race: White, Black, Asian, Indian, Others
+  Gender: male/female
+  Contextual situation: (e.g., facial accessories, hand covering face, or any emotion-related
+    features; write none if none)
+
+Place these cues within <cue> </cue> tags, with an asterisk (*) before each
+attribute, each on a separate line.
+
+Then, provide your reasoning process based on these cues within <think> </think> tags.
+Please provide a point-by-point comprehensive analysis based on the identified demographic
+characteristics (age, gender, race) and action units (AUs).
+
+Finally, select one emotion label from the following: happy, sad, neutral, angry, disgust,
+surprised, or fearful, and place it within <answer> </answer> tags.
+
+Example Output:
+<cue>
+* AU: AU6, AU12
+* Age: youth
+* Race: White
+* Gender: male
+* Contextual situation: none
+</cue>
+<think>
+1. AU6 (cheek raiser) and AU12 (lip corner puller) indicate genuine happiness
+2. The symmetrical nature of the expression suggests authentic positive emotion
+3. Age and gender characteristics support typical happiness expression patterns
+4. No contextual factors modify the emotional interpretation
+</think>
+<answer>happy</answer>
+
+Now analyze the following image:

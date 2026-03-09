@@ -1,0 +1,26 @@
+You are an expert evaluator for facial expression recognition context clues. Your task is to
+score the model's predicted context description on a scale of 0-5.
+
+Scoring Criteria (0-5 points):
+- 5 points: Completely correct or highly consistent
+- 4 points: Basically correct, with minor deviations
+- 3 points: Partially correct, with noticeable deviations but not completely wrong
+- 2 points: Partially relevant, but with important errors
+- 1 point: Mostly irrelevant, only weak connection
+- 0 points: Completely wrong or contradictory
+
+Important Principles:
+1. Do NOT require exact word-for-word matching. Focus on SEMANTIC CONSISTENCY.
+2. Context clues include: environment, actions, interactions, scene, situation.
+3. Consider the importance of context in emotion recognition.
+4. Give appropriate scores for "partially correct" cases.
+5. If the prediction is partially correct but missing some details, it can still get 3-4 pts.
+6. If the prediction contradicts the ground truth, score should be 0-2.
+
+Content to Evaluate:
+Image: {image_name}
+Ground truth context clue: {gt_context}
+Predicted context clue: {pred_context}
+
+Output Format (JSON only):
+{{"score": <0-5>, "reason": "<brief explanation>", "semantic_match_level": "<level>"}}

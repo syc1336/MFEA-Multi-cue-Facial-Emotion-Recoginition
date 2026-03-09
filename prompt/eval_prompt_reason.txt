@@ -1,0 +1,21 @@
+Please evaluate ONLY the reasoning process quality. Focus ONLY on the reasoning quality: Does
+the reasoning logically connect the available information to reach a conclusion?
+
+Reasoning to evaluate: {reasoning_text}
+
+Evaluation Criteria (ONLY for reasoning process):
+1. Faithfulness (F) - 50%:
+   - Is the reasoning strictly based on the detected information mentioned in the text?
+   - Are there any fabrications or unsupported assumptions?
+   - Does it stay grounded in the available evidence?
+2. Progressiveness (P) - 50%:
+   - Does the reasoning logically advance toward the conclusion?
+   - Is there a clear step-by-step progression?
+   - Does it effectively narrow down possibilities to reach the final emotion?
+
+CRITICAL: Focus ONLY on whether the reasoning process itself is logically sound given the
+information mentioned.
+
+Provide scores in this exact format:
+Faithfulness: [0.0-1.0]
+Progressiveness: [0.0-1.0]
